@@ -2,6 +2,11 @@
 early documentation for this repository
 
 
+## notes
++ Repository local folder is on `M:\`
++ Virtual environment is on `V:\`
+
+
 ## virtual environment
 + Download [`requirements.txt`](requirements.txt) to `V:\`
 + Open cmd
@@ -37,11 +42,12 @@ early documentation for this repository
   viridi@ryzen7 MINGW64 /m
   $ git clone https://github.com/dudung/random-problem
   Cloning into 'random-problem'...
-  remote: Enumerating objects: 5, done.
-  remote: Counting objects: 100% (5/5), done.
-  remote: Compressing objects: 100% (5/5), done.
-  remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
-  Receiving objects: 100% (5/5), done.
+  remote: Enumerating objects: 40, done.
+  remote: Counting objects: 100% (40/40), done.
+  remote: Compressing objects: 100% (33/33), done.
+  remote: Total 40 (delta 14), reused 30 (delta 6), pack-reused 0
+  Receiving objects: 100% (40/40), 188.66 KiB | 1.32 MiB/s, done.
+  Resolving deltas: 100% (14/14), done.
   ```
 + Change directory
   ```
@@ -52,12 +58,18 @@ early documentation for this repository
   ```
   viridi@ryzen7 MINGW64 /m
   $ ls -l
-  total 168
-  -rw-r--r-- 1 Sparisoma Viridi 197121   1094 May 25 08:48 LICENSE
-  -rw-r--r-- 1 Sparisoma Viridi 197121   1656 May 25 10:48 README.md
-  -rwxr-xr-x 1 Sparisoma Viridi 197121   1172 May 25 10:39 cmd.lnk*
-  -rw-r--r-- 1 Sparisoma Viridi 197121   2148 May 25 10:18 requirements.txt
-  -rw-r--r-- 1 Sparisoma Viridi 197121 153213 May 25 10:25 venv.md
+  total 5
+  -rw-r--r-- 1 Sparisoma Viridi 197121 1094 May 25 11:36 LICENSE
+  -rw-r--r-- 1 Sparisoma Viridi 197121  115 May 25 11:36 README.md
+  drwxr-xr-x 1 Sparisoma Viridi 197121    0 May 25 11:36 docs/
+  
+  viridi@ryzen7 MINGW64 /m
+  $ ls docs -l
+  total 240
+  -rw-r--r-- 1 Sparisoma Viridi 197121   2230 May 25 11:36 README.md
+  -rw-r--r-- 1 Sparisoma Viridi 197121  80768 May 25 11:36 jupyter_notebook.png
+  -rw-r--r-- 1 Sparisoma Viridi 197121   2148 May 25 11:36 requirements.txt
+  -rw-r--r-- 1 Sparisoma Viridi 197121 153213 May 25 11:36 venv.md
   ```
 + Close GitBash
   ```
