@@ -2446,4 +2446,635 @@ Required-by:
 ## jupyter
 Install jupyter
 ```
+(randp) V:\>install jupyter
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(randp) V:\>pip install jupyter
+Collecting jupyter
+  Downloading jupyter-1.0.0-py2.py3-none-any.whl.metadata (995 bytes)
+Collecting notebook (from jupyter)
+  Downloading notebook-7.2.0-py3-none-any.whl.metadata (10 kB)
+Collecting qtconsole (from jupyter)
+  Downloading qtconsole-5.5.2-py3-none-any.whl.metadata (5.1 kB)
+Collecting jupyter-console (from jupyter)
+  Downloading jupyter_console-6.6.3-py3-none-any.whl.metadata (5.8 kB)
+Collecting nbconvert (from jupyter)
+  Downloading nbconvert-7.16.4-py3-none-any.whl.metadata (8.5 kB)
+Collecting ipykernel (from jupyter)
+  Downloading ipykernel-6.29.4-py3-none-any.whl.metadata (6.3 kB)
+Collecting ipywidgets (from jupyter)
+  Downloading ipywidgets-8.1.2-py3-none-any.whl.metadata (2.4 kB)
+Collecting comm>=0.1.1 (from ipykernel->jupyter)
+  Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy>=1.6.5 (from ipykernel->jupyter)
+  Downloading debugpy-1.8.1-cp312-cp312-win_amd64.whl.metadata (1.1 kB)
+Collecting ipython>=7.23.1 (from ipykernel->jupyter)
+  Downloading ipython-8.24.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting jupyter-client>=6.1.12 (from ipykernel->jupyter)
+  Downloading jupyter_client-8.6.2-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter-core!=5.0.*,>=4.12 (from ipykernel->jupyter)
+  Downloading jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting matplotlib-inline>=0.1 (from ipykernel->jupyter)
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+Collecting nest-asyncio (from ipykernel->jupyter)
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: packaging in v:\randp\lib\site-packages (from ipykernel->jupyter) (24.0)
+Collecting psutil (from ipykernel->jupyter)
+  Downloading psutil-5.9.8-cp37-abi3-win_amd64.whl.metadata (22 kB)
+Collecting pyzmq>=24 (from ipykernel->jupyter)
+  Downloading pyzmq-26.0.3-cp312-cp312-win_amd64.whl.metadata (6.1 kB)
+Collecting tornado>=6.1 (from ipykernel->jupyter)
+  Downloading tornado-6.4-cp38-abi3-win_amd64.whl.metadata (2.6 kB)
+Collecting traitlets>=5.4.0 (from ipykernel->jupyter)
+  Downloading traitlets-5.14.3-py3-none-any.whl.metadata (10 kB)
+Collecting widgetsnbextension~=4.0.10 (from ipywidgets->jupyter)
+  Downloading widgetsnbextension-4.0.10-py3-none-any.whl.metadata (1.6 kB)
+Collecting jupyterlab-widgets~=3.0.10 (from ipywidgets->jupyter)
+  Downloading jupyterlab_widgets-3.0.10-py3-none-any.whl.metadata (4.1 kB)
+Collecting prompt-toolkit>=3.0.30 (from jupyter-console->jupyter)
+  Downloading prompt_toolkit-3.0.43-py3-none-any.whl.metadata (6.5 kB)
+Collecting pygments (from jupyter-console->jupyter)
+  Downloading pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting beautifulsoup4 (from nbconvert->jupyter)
+  Downloading beautifulsoup4-4.12.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach!=5.0.0 (from nbconvert->jupyter)
+  Downloading bleach-6.1.0-py3-none-any.whl.metadata (30 kB)
+Collecting defusedxml (from nbconvert->jupyter)
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting jinja2>=3.0 (from nbconvert->jupyter)
+  Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting jupyterlab-pygments (from nbconvert->jupyter)
+  Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting markupsafe>=2.0 (from nbconvert->jupyter)
+  Downloading MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl.metadata (3.1 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert->jupyter)
+  Downloading mistune-3.0.2-py3-none-any.whl.metadata (1.7 kB)
+Collecting nbclient>=0.5.0 (from nbconvert->jupyter)
+  Downloading nbclient-0.10.0-py3-none-any.whl.metadata (7.8 kB)
+Collecting nbformat>=5.7 (from nbconvert->jupyter)
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+  Downloading pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting tinycss2 (from nbconvert->jupyter)
+  Downloading tinycss2-1.3.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting jupyter-server<3,>=2.4.0 (from notebook->jupyter)
+  Downloading jupyter_server-2.14.0-py3-none-any.whl.metadata (8.4 kB)
+Collecting jupyterlab-server<3,>=2.27.1 (from notebook->jupyter)
+  Downloading jupyterlab_server-2.27.2-py3-none-any.whl.metadata (5.9 kB)
+Collecting jupyterlab<4.3,>=4.2.0 (from notebook->jupyter)
+  Downloading jupyterlab-4.2.1-py3-none-any.whl.metadata (16 kB)
+Collecting notebook-shim<0.3,>=0.2 (from notebook->jupyter)
+  Downloading notebook_shim-0.2.4-py3-none-any.whl.metadata (4.0 kB)
+Collecting qtpy>=2.4.0 (from qtconsole->jupyter)
+  Downloading QtPy-2.4.1-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: six>=1.9.0 in v:\randp\lib\site-packages (from bleach!=5.0.0->nbconvert->jupyter) (1.16.0)
+Collecting webencodings (from bleach!=5.0.0->nbconvert->jupyter)
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Collecting decorator (from ipython>=7.23.1->ipykernel->jupyter)
+  Downloading decorator-5.1.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel->jupyter)
+  Downloading jedi-0.19.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting stack-data (from ipython>=7.23.1->ipykernel->jupyter)
+  Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting colorama (from ipython>=7.23.1->ipykernel->jupyter)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in v:\randp\lib\site-packages (from jupyter-client>=6.1.12->ipykernel->jupyter) (2.9.0.post0)
+Collecting platformdirs>=2.5 (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter)
+  Downloading platformdirs-4.2.2-py3-none-any.whl.metadata (11 kB)
+Collecting pywin32>=300 (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter)
+  Downloading pywin32-306-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Collecting anyio>=3.1.0 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading anyio-4.3.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting argon2-cffi>=21.1 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading argon2_cffi-23.1.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting jupyter-events>=0.9.0 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading jupyter_events-0.10.0-py3-none-any.whl.metadata (5.9 kB)
+Collecting jupyter-server-terminals>=0.4.4 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl.metadata (5.6 kB)
+Collecting overrides>=5.0 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting prometheus-client>=0.9 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading prometheus_client-0.20.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting pywinpty>=2.0.1 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading pywinpty-2.0.13-cp312-none-win_amd64.whl.metadata (5.2 kB)
+Collecting send2trash>=1.8.2 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading Send2Trash-1.8.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting terminado>=0.8.3 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading terminado-0.18.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting websocket-client>=1.7 (from jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading websocket_client-1.8.0-py3-none-any.whl.metadata (8.0 kB)
+Collecting async-lru>=1.0.0 (from jupyterlab<4.3,>=4.2.0->notebook->jupyter)
+  Downloading async_lru-2.0.4-py3-none-any.whl.metadata (4.5 kB)
+Collecting httpx>=0.25.0 (from jupyterlab<4.3,>=4.2.0->notebook->jupyter)
+  Downloading httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting jupyter-lsp>=2.0.0 (from jupyterlab<4.3,>=4.2.0->notebook->jupyter)
+  Downloading jupyter_lsp-2.2.5-py3-none-any.whl.metadata (1.8 kB)
+Collecting babel>=2.10 (from jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading Babel-2.15.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting json5>=0.9.0 (from jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading json5-0.9.25-py3-none-any.whl.metadata (30 kB)
+Collecting jsonschema>=4.18.0 (from jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading jsonschema-4.22.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting requests>=2.31 (from jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading requests-2.32.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting fastjsonschema>=2.15 (from nbformat>=5.7->nbconvert->jupyter)
+  Downloading fastjsonschema-2.19.1-py3-none-any.whl.metadata (2.1 kB)
+Collecting wcwidth (from prompt-toolkit>=3.0.30->jupyter-console->jupyter)
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4->nbconvert->jupyter)
+  Downloading soupsieve-2.5-py3-none-any.whl.metadata (4.7 kB)
+Collecting idna>=2.8 (from anyio>=3.1.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading idna-3.7-py3-none-any.whl.metadata (9.9 kB)
+Collecting sniffio>=1.1 (from anyio>=3.1.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting argon2-cffi-bindings (from argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl.metadata (6.7 kB)
+Collecting certifi (from httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook->jupyter)
+  Downloading certifi-2024.2.2-py3-none-any.whl.metadata (2.2 kB)
+Collecting httpcore==1.* (from httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook->jupyter)
+  Downloading httpcore-1.0.5-py3-none-any.whl.metadata (20 kB)
+Collecting h11<0.15,>=0.13 (from httpcore==1.*->httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook->jupyter)
+  Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting parso<0.9.0,>=0.8.3 (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter)
+  Downloading parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading attrs-23.2.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading referencing-0.35.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading rpds_py-0.18.1-cp312-none-win_amd64.whl.metadata (4.2 kB)
+Collecting python-json-logger>=2.0.4 (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading python_json_logger-2.0.7-py3-none-any.whl.metadata (6.5 kB)
+Collecting pyyaml>=5.3 (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading PyYAML-6.0.1-cp312-cp312-win_amd64.whl.metadata (2.1 kB)
+Collecting rfc3339-validator (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting rfc3986-validator>=0.1.1 (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.31->jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading charset_normalizer-3.3.2-cp312-cp312-win_amd64.whl.metadata (34 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.31->jupyterlab-server<3,>=2.27.1->notebook->jupyter)
+  Downloading urllib3-2.2.1-py3-none-any.whl.metadata (6.4 kB)
+Collecting executing>=1.2.0 (from stack-data->ipython>=7.23.1->ipykernel->jupyter)
+  Downloading executing-2.0.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting asttokens>=2.1.0 (from stack-data->ipython>=7.23.1->ipykernel->jupyter)
+  Downloading asttokens-2.4.1-py2.py3-none-any.whl.metadata (5.2 kB)
+Collecting pure-eval (from stack-data->ipython>=7.23.1->ipykernel->jupyter)
+  Downloading pure_eval-0.2.2-py3-none-any.whl.metadata (6.2 kB)
+Collecting fqdn (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting isoduration (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting jsonpointer>1.13 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading jsonpointer-2.4-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting uri-template (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting webcolors>=1.11 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading webcolors-1.13-py3-none-any.whl.metadata (2.6 kB)
+Collecting cffi>=1.0.1 (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading cffi-1.16.0-cp312-cp312-win_amd64.whl.metadata (1.5 kB)
+Collecting pycparser (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting arrow>=0.15.0 (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting types-python-dateutil>=2.8.10 (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter)
+  Downloading types_python_dateutil-2.9.0.20240316-py3-none-any.whl.metadata (1.8 kB)
+Downloading jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Downloading ipykernel-6.29.4-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.1/117.1 kB 758.1 kB/s eta 0:00:00
+Downloading ipywidgets-8.1.2-py3-none-any.whl (139 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.4/139.4 kB 485.6 kB/s eta 0:00:00
+Downloading jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+Downloading nbconvert-7.16.4-py3-none-any.whl (257 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 257.4/257.4 kB 753.5 kB/s eta 0:00:00
+Downloading notebook-7.2.0-py3-none-any.whl (5.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 690.3 kB/s eta 0:00:00
+Downloading qtconsole-5.5.2-py3-none-any.whl (123 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.4/123.4 kB 725.4 kB/s eta 0:00:00
+Downloading bleach-6.1.0-py3-none-any.whl (162 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.8/162.8 kB 651.8 kB/s eta 0:00:00
+Downloading comm-0.2.2-py3-none-any.whl (7.2 kB)
+Downloading debugpy-1.8.1-cp312-cp312-win_amd64.whl (4.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 668.9 kB/s eta 0:00:00
+Downloading ipython-8.24.0-py3-none-any.whl (816 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 816.5/816.5 kB 875.4 kB/s eta 0:00:00
+Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 kB 984.2 kB/s eta 0:00:00
+Downloading jupyter_client-8.6.2-py3-none-any.whl (105 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.9/105.9 kB 471.2 kB/s eta 0:00:00
+Downloading jupyter_core-5.7.2-py3-none-any.whl (28 kB)
+Downloading jupyter_server-2.14.0-py3-none-any.whl (383 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 383.3/383.3 kB 628.1 kB/s eta 0:00:00
+Downloading jupyterlab-4.2.1-py3-none-any.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 706.8 kB/s eta 0:00:00
+Downloading jupyterlab_server-2.27.2-py3-none-any.whl (59 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.4/59.4 kB 622.5 kB/s eta 0:00:00
+Downloading jupyterlab_widgets-3.0.10-py3-none-any.whl (215 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 215.0/215.0 kB 689.5 kB/s eta 0:00:00
+Downloading MarkupSafe-2.1.5-cp312-cp312-win_amd64.whl (17 kB)
+Downloading matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+Downloading mistune-3.0.2-py3-none-any.whl (47 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.0/48.0 kB 483.6 kB/s eta 0:00:00
+Downloading nbclient-0.10.0-py3-none-any.whl (25 kB)
+Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 725.7 kB/s eta 0:00:00
+Downloading notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+Downloading pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Downloading prompt_toolkit-3.0.43-py3-none-any.whl (386 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 386.1/386.1 kB 1.0 MB/s eta 0:00:00
+Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 932.4 kB/s eta 0:00:00
+Downloading pyzmq-26.0.3-cp312-cp312-win_amd64.whl (770 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.1/770.1 kB 934.7 kB/s eta 0:00:00
+Downloading QtPy-2.4.1-py3-none-any.whl (93 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.5/93.5 kB 1.1 MB/s eta 0:00:00
+Downloading tornado-6.4-cp38-abi3-win_amd64.whl (436 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 437.0/437.0 kB 881.6 kB/s eta 0:00:00
+Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.4/85.4 kB 799.1 kB/s eta 0:00:00
+Downloading widgetsnbextension-4.0.10-py3-none-any.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 778.2 kB/s eta 0:00:00
+Downloading beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.9/147.9 kB 800.5 kB/s eta 0:00:00
+Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Downloading psutil-5.9.8-cp37-abi3-win_amd64.whl (255 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 255.1/255.1 kB 475.4 kB/s eta 0:00:00
+Downloading tinycss2-1.3.0-py3-none-any.whl (22 kB)
+Downloading anyio-4.3.0-py3-none-any.whl (85 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.6/85.6 kB 810.1 kB/s eta 0:00:00
+Downloading argon2_cffi-23.1.0-py3-none-any.whl (15 kB)
+Downloading async_lru-2.0.4-py3-none-any.whl (6.1 kB)
+Downloading Babel-2.15.0-py3-none-any.whl (9.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.6/9.6 MB 529.7 kB/s eta 0:00:00
+Downloading fastjsonschema-2.19.1-py3-none-any.whl (23 kB)
+Downloading httpx-0.27.0-py3-none-any.whl (75 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.6/75.6 kB 837.8 kB/s eta 0:00:00
+Downloading httpcore-1.0.5-py3-none-any.whl (77 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.9/77.9 kB 541.5 kB/s eta 0:00:00
+Downloading jedi-0.19.1-py2.py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 604.8 kB/s eta 0:00:00
+Downloading json5-0.9.25-py3-none-any.whl (30 kB)
+Downloading jsonschema-4.22.0-py3-none-any.whl (88 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.3/88.3 kB 709.8 kB/s eta 0:00:00
+Downloading jupyter_events-0.10.0-py3-none-any.whl (18 kB)
+Downloading jupyter_lsp-2.2.5-py3-none-any.whl (69 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.1/69.1 kB 935.0 kB/s eta 0:00:00
+Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl (13 kB)
+Downloading overrides-7.7.0-py3-none-any.whl (17 kB)
+Downloading platformdirs-4.2.2-py3-none-any.whl (18 kB)
+Downloading prometheus_client-0.20.0-py3-none-any.whl (54 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.5/54.5 kB 941.1 kB/s eta 0:00:00
+Downloading pywin32-306-cp312-cp312-win_amd64.whl (9.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 587.0 kB/s eta 0:00:00
+Downloading pywinpty-2.0.13-cp312-none-win_amd64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 622.0 kB/s eta 0:00:00
+Downloading requests-2.32.2-py3-none-any.whl (63 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.9/63.9 kB 865.5 kB/s eta 0:00:00
+Downloading Send2Trash-1.8.3-py3-none-any.whl (18 kB)
+Downloading soupsieve-2.5-py3-none-any.whl (36 kB)
+Downloading terminado-0.18.1-py3-none-any.whl (14 kB)
+Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Downloading websocket_client-1.8.0-py3-none-any.whl (58 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.8/58.8 kB 516.9 kB/s eta 0:00:00
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Downloading asttokens-2.4.1-py2.py3-none-any.whl (27 kB)
+Downloading attrs-23.2.0-py3-none-any.whl (60 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.8/60.8 kB 814.7 kB/s eta 0:00:00
+Downloading certifi-2024.2.2-py3-none-any.whl (163 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.8/163.8 kB 892.6 kB/s eta 0:00:00
+Downloading charset_normalizer-3.3.2-cp312-cp312-win_amd64.whl (100 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.4/100.4 kB 819.6 kB/s eta 0:00:00
+Downloading executing-2.0.1-py2.py3-none-any.whl (24 kB)
+Downloading idna-3.7-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 kB 725.6 kB/s eta 0:00:00
+Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Downloading parso-0.8.4-py2.py3-none-any.whl (103 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.7/103.7 kB 747.3 kB/s eta 0:00:00
+Downloading python_json_logger-2.0.7-py3-none-any.whl (8.1 kB)
+Downloading PyYAML-6.0.1-cp312-cp312-win_amd64.whl (138 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 138.7/138.7 kB 548.9 kB/s eta 0:00:00
+Downloading referencing-0.35.1-py3-none-any.whl (26 kB)
+Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Downloading rpds_py-0.18.1-cp312-none-win_amd64.whl (209 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.3/209.3 kB 847.2 kB/s eta 0:00:00
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading urllib3-2.2.1-py3-none-any.whl (121 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.1/121.1 kB 592.7 kB/s eta 0:00:00
+Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl (30 kB)
+Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Downloading cffi-1.16.0-cp312-cp312-win_amd64.whl (181 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.0/182.0 kB 611.1 kB/s eta 0:00:00
+Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 774.5 kB/s eta 0:00:00
+Downloading jsonpointer-2.4-py2.py3-none-any.whl (7.8 kB)
+Downloading webcolors-1.13-py3-none-any.whl (14 kB)
+Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+Downloading uri_template-1.3.0-py3-none-any.whl (11 kB)
+Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.4/66.4 kB 891.7 kB/s eta 0:00:00
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 984.5 kB/s eta 0:00:00
+Downloading types_python_dateutil-2.9.0.20240316-py3-none-any.whl (9.7 kB)
+Installing collected packages: webencodings, wcwidth, pywin32, pure-eval, fastjsonschema, widgetsnbextension, websocket-client, webcolors, urllib3, uri-template, types-python-dateutil, traitlets, tornado, tinycss2, soupsieve, sniffio, send2trash, rpds-py, rfc3986-validator, rfc3339-validator, qtpy, pyzmq, pyyaml, pywinpty, python-json-logger, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, platformdirs, parso, pandocfilters, overrides, nest-asyncio, mistune, markupsafe, jupyterlab-widgets, jupyterlab-pygments, jsonpointer, json5, idna, h11, fqdn, executing, defusedxml, decorator, debugpy, colorama, charset-normalizer, certifi, bleach, babel, attrs, async-lru, asttokens, terminado, stack-data, requests, referencing, matplotlib-inline, jupyter-core, jinja2, jedi, httpcore, comm, cffi, beautifulsoup4, arrow, anyio, jupyter-server-terminals, jupyter-client, jsonschema-specifications, isoduration, ipython, httpx, argon2-cffi-bindings, jsonschema, ipywidgets, ipykernel, argon2-cffi, qtconsole, nbformat, jupyter-console, nbclient, jupyter-events, nbconvert, jupyter-server, notebook-shim, jupyterlab-server, jupyter-lsp, jupyterlab, notebook, jupyter
+Successfully installed anyio-4.3.0 argon2-cffi-23.1.0 argon2-cffi-bindings-21.2.0 arrow-1.3.0 asttokens-2.4.1 async-lru-2.0.4 attrs-23.2.0 babel-2.15.0 beautifulsoup4-4.12.3 bleach-6.1.0 certifi-2024.2.2 cffi-1.16.0 charset-normalizer-3.3.2 colorama-0.4.6 comm-0.2.2 debugpy-1.8.1 decorator-5.1.1 defusedxml-0.7.1 executing-2.0.1 fastjsonschema-2.19.1 fqdn-1.5.1 h11-0.14.0 httpcore-1.0.5 httpx-0.27.0 idna-3.7 ipykernel-6.29.4 ipython-8.24.0 ipywidgets-8.1.2 isoduration-20.11.0 jedi-0.19.1 jinja2-3.1.4 json5-0.9.25 jsonpointer-2.4 jsonschema-4.22.0 jsonschema-specifications-2023.12.1 jupyter-1.0.0 jupyter-client-8.6.2 jupyter-console-6.6.3 jupyter-core-5.7.2 jupyter-events-0.10.0 jupyter-lsp-2.2.5 jupyter-server-2.14.0 jupyter-server-terminals-0.5.3 jupyterlab-4.2.1 jupyterlab-pygments-0.3.0 jupyterlab-server-2.27.2 jupyterlab-widgets-3.0.10 markupsafe-2.1.5 matplotlib-inline-0.1.7 mistune-3.0.2 nbclient-0.10.0 nbconvert-7.16.4 nbformat-5.10.4 nest-asyncio-1.6.0 notebook-7.2.0 notebook-shim-0.2.4 overrides-7.7.0 pandocfilters-1.5.1 parso-0.8.4 platformdirs-4.2.2 prometheus-client-0.20.0 prompt-toolkit-3.0.43 psutil-5.9.8 pure-eval-0.2.2 pycparser-2.22 pygments-2.18.0 python-json-logger-2.0.7 pywin32-306 pywinpty-2.0.13 pyyaml-6.0.1 pyzmq-26.0.3 qtconsole-5.5.2 qtpy-2.4.1 referencing-0.35.1 requests-2.32.2 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 rpds-py-0.18.1 send2trash-1.8.3 sniffio-1.3.1 soupsieve-2.5 stack-data-0.6.3 terminado-0.18.1 tinycss2-1.3.0 tornado-6.4 traitlets-5.14.3 types-python-dateutil-2.9.0.20240316 uri-template-1.3.0 urllib3-2.2.1 wcwidth-0.2.13 webcolors-1.13 webencodings-0.5.1 websocket-client-1.8.0 widgetsnbextension-4.0.10
+
+(randp) V:\>
+```
+
+List installed packages
+```
+(randp) V:\>pip list
+Package                   Version
+------------------------- --------------
+anyio                     4.3.0
+argon2-cffi               23.1.0
+argon2-cffi-bindings      21.2.0
+arrow                     1.3.0
+asttokens                 2.4.1
+async-lru                 2.0.4
+attrs                     23.2.0
+Babel                     2.15.0
+beautifulsoup4            4.12.3
+bleach                    6.1.0
+certifi                   2024.2.2
+cffi                      1.16.0
+charset-normalizer        3.3.2
+colorama                  0.4.6
+comm                      0.2.2
+contourpy                 1.2.1
+cycler                    0.12.1
+debugpy                   1.8.1
+decorator                 5.1.1
+defusedxml                0.7.1
+executing                 2.0.1
+fastjsonschema            2.19.1
+fonttools                 4.52.1
+fqdn                      1.5.1
+h11                       0.14.0
+httpcore                  1.0.5
+httpx                     0.27.0
+idna                      3.7
+ipykernel                 6.29.4
+ipython                   8.24.0
+ipywidgets                8.1.2
+isoduration               20.11.0
+jedi                      0.19.1
+Jinja2                    3.1.4
+json5                     0.9.25
+jsonpointer               2.4
+jsonschema                4.22.0
+jsonschema-specifications 2023.12.1
+jupyter                   1.0.0
+jupyter_client            8.6.2
+jupyter-console           6.6.3
+jupyter_core              5.7.2
+jupyter-events            0.10.0
+jupyter-lsp               2.2.5
+jupyter_server            2.14.0
+jupyter_server_terminals  0.5.3
+jupyterlab                4.2.1
+jupyterlab_pygments       0.3.0
+jupyterlab_server         2.27.2
+jupyterlab_widgets        3.0.10
+kiwisolver                1.4.5
+MarkupSafe                2.1.5
+matplotlib                3.9.0
+matplotlib-inline         0.1.7
+mistune                   3.0.2
+mpmath                    1.3.0
+nbclient                  0.10.0
+nbconvert                 7.16.4
+nbformat                  5.10.4
+nest-asyncio              1.6.0
+notebook                  7.2.0
+notebook_shim             0.2.4
+numpy                     1.26.4
+overrides                 7.7.0
+packaging                 24.0
+pandas                    2.2.2
+pandocfilters             1.5.1
+parso                     0.8.4
+pillow                    10.3.0
+pip                       24.0
+platformdirs              4.2.2
+prometheus_client         0.20.0
+prompt-toolkit            3.0.43
+psutil                    5.9.8
+pure-eval                 0.2.2
+pycparser                 2.22
+Pygments                  2.18.0
+pyparsing                 3.1.2
+python-dateutil           2.9.0.post0
+python-json-logger        2.0.7
+pytz                      2024.1
+pywin32                   306
+pywinpty                  2.0.13
+PyYAML                    6.0.1
+pyzmq                     26.0.3
+qtconsole                 5.5.2
+QtPy                      2.4.1
+referencing               0.35.1
+requests                  2.32.2
+rfc3339-validator         0.1.4
+rfc3986-validator         0.1.1
+rpds-py                   0.18.1
+scipy                     1.13.1
+seaborn                   0.13.2
+Send2Trash                1.8.3
+six                       1.16.0
+sniffio                   1.3.1
+soupsieve                 2.5
+stack-data                0.6.3
+sympy                     1.12
+terminado                 0.18.1
+tinycss2                  1.3.0
+tornado                   6.4
+traitlets                 5.14.3
+types-python-dateutil     2.9.0.20240316
+tzdata                    2024.1
+uri-template              1.3.0
+urllib3                   2.2.1
+wcwidth                   0.2.13
+webcolors                 1.13
+webencodings              0.5.1
+websocket-client          1.8.0
+widgetsnbextension        4.0.10
+
+(randp) V:\>
+```
+
+Show particular package(s)
+```
+(randp) V:\>pip show jupyter
+Name: jupyter
+Version: 1.0.0
+Summary: Jupyter metapackage. Install all the Jupyter components in one go.
+Home-page: http://jupyter.org
+Author: Jupyter Development Team
+Author-email: jupyter@googlegroups.org
+License: BSD
+Location: V:\randp\Lib\site-packages
+Requires: ipykernel, ipywidgets, jupyter-console, nbconvert, notebook, qtconsole
+Required-by:
+```
+
+
+## freeze
+Create requierements.txt
+```
+(randp) V:\>pip freeze > requirements.txt
+
+(randp) V:\>
+```
+
+Display file information
+```
+(randp) V:\>dir requirements.txt
+ Volume in drive V is venv
+ Volume Serial Number is 607A-B795
+
+ Directory of V:\
+
+2024-05-25  10:18             2,148 requirements.txt
+               1 File(s)          2,148 bytes
+               0 Dir(s)  20,302,024,704 bytes free
+
+
+(randp) V:\>
+```
+
+Display content of requirements.txt
+```
+(randp) V:\>type requirements.txt
+anyio==4.3.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+async-lru==2.0.4
+attrs==23.2.0
+Babel==2.15.0
+beautifulsoup4==4.12.3
+bleach==6.1.0
+certifi==2024.2.2
+cffi==1.16.0
+charset-normalizer==3.3.2
+colorama==0.4.6
+comm==0.2.2
+contourpy==1.2.1
+cycler==0.12.1
+debugpy==1.8.1
+decorator==5.1.1
+defusedxml==0.7.1
+executing==2.0.1
+fastjsonschema==2.19.1
+fonttools==4.52.1
+fqdn==1.5.1
+h11==0.14.0
+httpcore==1.0.5
+httpx==0.27.0
+idna==3.7
+ipykernel==6.29.4
+ipython==8.24.0
+ipywidgets==8.1.2
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2==3.1.4
+json5==0.9.25
+jsonpointer==2.4
+jsonschema==4.22.0
+jsonschema-specifications==2023.12.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.10.0
+jupyter-lsp==2.2.5
+jupyter_client==8.6.2
+jupyter_core==5.7.2
+jupyter_server==2.14.0
+jupyter_server_terminals==0.5.3
+jupyterlab==4.2.1
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.27.2
+jupyterlab_widgets==3.0.10
+kiwisolver==1.4.5
+MarkupSafe==2.1.5
+matplotlib==3.9.0
+matplotlib-inline==0.1.7
+mistune==3.0.2
+mpmath==1.3.0
+nbclient==0.10.0
+nbconvert==7.16.4
+nbformat==5.10.4
+nest-asyncio==1.6.0
+notebook==7.2.0
+notebook_shim==0.2.4
+numpy==1.26.4
+overrides==7.7.0
+packaging==24.0
+pandas==2.2.2
+pandocfilters==1.5.1
+parso==0.8.4
+pillow==10.3.0
+platformdirs==4.2.2
+prometheus_client==0.20.0
+prompt-toolkit==3.0.43
+psutil==5.9.8
+pure-eval==0.2.2
+pycparser==2.22
+Pygments==2.18.0
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+python-json-logger==2.0.7
+pytz==2024.1
+pywin32==306
+pywinpty==2.0.13
+PyYAML==6.0.1
+pyzmq==26.0.3
+qtconsole==5.5.2
+QtPy==2.4.1
+referencing==0.35.1
+requests==2.32.2
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rpds-py==0.18.1
+scipy==1.13.1
+seaborn==0.13.2
+Send2Trash==1.8.3
+six==1.16.0
+sniffio==1.3.1
+soupsieve==2.5
+stack-data==0.6.3
+sympy==1.12
+terminado==0.18.1
+tinycss2==1.3.0
+tornado==6.4
+traitlets==5.14.3
+types-python-dateutil==2.9.0.20240316
+tzdata==2024.1
+uri-template==1.3.0
+urllib3==2.2.1
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.8.0
+widgetsnbextension==4.0.10
+
+(randp) V:\>
+```
+
+Move the file to repo local folder
+```
+(randp) V:\>move requirements.txt m:\random-problem\
+        1 file(s) moved.
+(randp) V:\>
 ```
