@@ -4,7 +4,7 @@ early documentation for this repository
 
 ## notes
 + Repository local folder is on `M:\`
-+ Virtual environment is on `V:\`
++ Virtual environment `randp` is on `V:\`
 
 
 ## virtual environment
